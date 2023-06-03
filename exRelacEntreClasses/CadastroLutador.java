@@ -103,7 +103,7 @@ public class CadastroLutador implements DadosLutador{
 		this.setCategoria();
 	}
 	
-	private String getCategoria() {
+	public String getCategoria() {
 		return categoria;
 	}
 	private void setCategoria() {
